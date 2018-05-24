@@ -1,0 +1,6 @@
+lib/*.jar
+lib/*.lic
+.project
+.settings
+.classpath
+target

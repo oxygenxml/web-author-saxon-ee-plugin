@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The plugin.dtd file is located in the OXYGEN_INSATALL_DIR/plugins directory -->
+<!DOCTYPE plugin SYSTEM "../plugin.dtd">
+<plugin
+    class="com.oxygenxml.webapp.operations.xslt.SaxonEEPlugin"
+    id="web-author-saxon-ee-plugin"
+    name="Web Author Saxon EE Plugin (for XSLTOperation)"
+    description="A plugin for oXygen XML Web Author."
+    version="1.0"
+    vendor="Syncro Soft SRL"
+    classLoaderType="preferReferencedResources">
+    
+  <runtime>
+    <librariesFolder name="lib" />
+    <library name="target/classes" />
+  </runtime>
+ </plugin>
