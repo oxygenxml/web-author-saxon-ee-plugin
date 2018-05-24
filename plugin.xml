@@ -12,6 +12,5 @@
     
   <runtime>
     <librariesFolder name="lib" />
-    <library name="target/classes" />
   </runtime>
  </plugin>
