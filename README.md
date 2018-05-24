@@ -16,7 +16,13 @@ mvn package
 The plugin will be generated in the `target` folder and its name will be of the form `web-author-saxon-ee-plugin-*-plugin.jar`.
 
 
-Using the plugin
+Using the operation
 ----------------
 
-After installing the plugin, you can use the following AuthorOperation `com.oxygenxml.webapp.operations.xslt.SaxonEEXSLTOperation`.
+To use this operation in your framework you should.
+
+- Extract the plugin in the `plugins` directory of your Oxygen XML Author/Editor.
+- In your framework, choose "Use parent classloader from plugin with ID" and use `web-author-saxon-ee-plugin`.
+- Choose the operation `com.oxygenxml.webapp.operations.xslt.SaxonEEXSLTOperation` and configure its parameters exactly like the ones for `XSLTOperation`.
+- Export the framework.
+- Deploy both the framework and this plugin in Web Author.
