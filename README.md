@@ -26,3 +26,9 @@ To use this operation in your framework you should.
 - Choose the operation `com.oxygenxml.webapp.operations.xslt.SaxonEEXSLTOperation` and configure its parameters exactly like the ones for `XSLTOperation`.
 - Export the framework.
 - Deploy both the framework and this plugin in Web Author.
+
+Copyright and License
+---------------------
+Copyright 2018 Syncro Soft SRL.
+
+This project is licensed under [Apache License 2.0](https://github.com/oxygenxml/web-author-saxon-ee-plugin/blob/master/LICENSE)
