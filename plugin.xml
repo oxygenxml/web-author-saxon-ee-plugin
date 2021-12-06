@@ -7,7 +7,7 @@
     name="Web Author Saxon EE Plugin (for XSLTOperation)"
     description="A plugin for oXygen XML Web Author."
     version="1.0"
-    vendor="Syncro Soft SRL"
+    vendor="Syncro Soft"
     classLoaderType="preferReferencedResources">
     
   <runtime>
